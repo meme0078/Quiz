@@ -1,37 +1,142 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Quiz - Análisis de Datos</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 2rem; background-color: #f3e5f5; }
-    h1 { color: #6a1b9a; }
-    .card { background: #ffffff; border: 1px solid #ccc; border-radius: 8px; padding: 1rem; margin-bottom: 1.5rem; box-shadow: 2px 2px 6px #ccc; }
-    .pregunta { font-weight: bold; color: #4a148c; }
-    .opciones, .respuesta, .explicacion { margin-top: 0.5rem; }
-    .respuesta { color: green; font-weight: bold; }
-    .explicacion { color: #333; font-style: italic; }
-  </style>
-</head>
-<body>
-  <h1>Resumen del Quiz - Análisis de Datos</h1>
+1. Librería para análisis de Datos
+Opciones:
+A. numpy
+B. matplotlib
+C. gensim
+D. polars
+E. Todas las anteriores
+F. Ninguna de las anteriores
 
-  <div class="card">
-    <div class="pregunta">1. ¿Cuál es una librería para análisis de datos?</div>
-    <div class="opciones">A. numpy<br>B. matplotlib<br>C. gensim<br>D. polars<br>E. Todas las anteriores<br>F. Ninguna de las anteriores</div>
-    <div class="respuesta">Respuesta: E</div>
-    <div class="explicacion">Todas son librerías útiles en análisis de datos.</div>
-  </div>
+Respuesta correcta: E. Todas las anteriores
+Explicación: Todas estas son librerías utilizadas en análisis de datos:
 
-  <div class="card">
-    <div class="pregunta">2. ¿Cuál muestra la diferencia de cuánto se desvía la media?</div>
-    <div class="opciones">A. covarianza<br>B. varianza<br>C. desviación estándar<br>D. distribución de bernoulli<br>E. Todas las anteriores<br>F. Ninguna de las anteriores</div>
-    <div class="respuesta">Respuesta: C</div>
-    <div class="explicacion">La desviación estándar mide la dispersión con respecto a la media.</div>
-  </div>
+numpy: cálculo numérico
 
-  <!-- Repite lo mismo para las demás preguntas -->
+matplotlib: visualización de datos
 
-  <!-- Puedes copiar más bloques .card a continuación según el resumen que te di -->
-</body>
-</html>
+gensim: procesamiento de lenguaje natural
+
+polars: procesamiento eficiente de dataframes
+
+2. Muestra la diferencia de cuánto se desvía la media
+Opciones:
+A. covarianza
+B. varianza
+C. desviación estándar
+D. distribución de bernoulli
+E. Todas las anteriores
+F. Ninguna de las anteriores
+
+Respuesta correcta: C. desviación estándar
+Explicación:
+La desviación estándar mide cuánto se desvían los datos respecto a la media. Es más intuitiva que la varianza (que es su cuadrado) y directamente responde a "cuánto se desvía la media".
+
+3. Los cuartiles, deciles, percentiles son aquellos que:
+Opciones:
+A. Dividen la data en partes diferentes
+B. Dividen el dataset
+C. Dividen el dataset en train y test
+D. Dividen las observaciones en partes iguales
+E. Todas las anteriores
+F. Ninguna de las anteriores
+
+Respuesta correcta: D. Dividen las observaciones en partes iguales
+Explicación:
+Estos valores dividen el conjunto de datos en partes iguales:
+
+Cuartiles: 4
+
+Deciles: 10
+
+Percentiles: 100
+
+4. Una gráfica con distribución central más hacia la derecha y una cola a la izquierda se dice es:
+Opciones:
+A. left-skewed o sesgada a la izquierda
+B. right-skewed o sesgada a la derecha
+C. neutral o centrada
+D. Clasificación
+E. Todas las anteriores
+F. Ninguna de las anteriores
+
+Respuesta correcta: A. left-skewed o sesgada a la izquierda
+Explicación:
+Una distribución con la cola extendida hacia la izquierda (valores bajos) se considera sesgada a la izquierda.
+
+5. En una distribución sesgada a la izquierda el orden de aparición de la moda, mediana y media es típicamente como el mencionado
+Opciones:
+A. Cierto
+B. Falso
+
+Respuesta correcta: A. Cierto
+Explicación:
+En una distribución sesgada a la izquierda, el orden suele ser:
+Moda > Mediana > Media, debido a que los valores más bajos (cola izquierda) empujan la media hacia abajo.
+
+6. El término de correlación no puede dar negativo:
+Opciones:
+A. Cierto
+B. Falso
+
+Respuesta correcta: B. Falso
+Explicación:
+La correlación puede ser:
+
+Positiva (ambas variables suben)
+
+Negativa (una sube y la otra baja)
+
+Cero (no hay relación)
+Por tanto, sí puede ser negativa.
+
+7. Un histograma representa
+Opciones:
+A. los cuartiles
+B. la distribución de la data
+C. los percentiles
+D. frecuencia de binarios
+E. el tercer cuartil
+F. Todas las anteriores
+G. Ninguna de las anteriores
+
+Respuesta correcta: B. la distribución de la data
+Explicación:
+Un histograma muestra cómo se distribuyen los datos dentro de intervalos (bins). No muestra cuartiles, percentiles, ni binarios por sí solo.
+
+8. La diferencia entre población y muestra estadística:
+Opciones:
+A. La población es el conjunto representativo de la muestra...
+B. La población es el conjunto completo de elementos... mientras que una muestra es el subconjunto representativo
+C. La muestra se obtiene dividiendo las variables en train/test...
+D. La población se obtiene dividiendo las variables en train/test...
+E. Todas las anteriores
+F. Ninguna de las anteriores
+
+Respuesta correcta: B.
+Explicación:
+
+Población: todo el conjunto de interés
+
+Muestra: subconjunto representativo de la población que se estudia para sacar conclusiones
+
+9. La mediana y la moda detectan outliers
+Opciones:
+A. Cierto
+B. Falso
+
+Respuesta correcta: B. Falso
+Explicación:
+La mediana y la moda no son sensibles a outliers. La media sí lo es. De hecho, se usan precisamente por su resistencia a los valores extremos.
+
+10. Los datos pueden provenir de fuentes como
+Opciones:
+A. El entorno
+B. Data tabular
+C. Imágenes y Audio
+D. Documentos
+E. Todas las anteriores
+F. Ninguna de las anteriores
+
+Respuesta correcta: E. Todas las anteriores
+Explicación:
+Los datos pueden venir de muchas fuentes: sensores (entorno), bases de datos (tabular), multimedia (audio, imágenes), y documentos (texto). Todas son fuentes válidas de datos.
