@@ -1,1 +1,126 @@
+1. ¿Qué es Machine Learning?
+Opciones:
+A. Una configuración especial en las máquinas para habilitar su aprendizaje
+B. Algoritmos que hacen que la máquina aprenda sin necesidad de hacer explícita la programación
+C. Realizar programación por medio de IF ELSE para que la máquina aprenda
+D. Realizar reglas de entrada y salida para que la máquina aprenda
+E. Todas las anteriores
+F. Ninguna de las anteriores
 
+Respuesta correcta: B. Algoritmos que hacen que la máquina aprenda sin necesidad de hacer explícita la programación
+Explicación:
+El machine learning se basa en el desarrollo de algoritmos capaces de aprender patrones a partir de datos, sin necesidad de reglas explícitas como estructuras condicionales manuales.
+
+2. Serie de algoritmos que se especifica como entrada datos y etiquetas y tiene como salida un modelo
+Opciones:
+A. Supervised Learning
+B. Unsupervised Learning
+C. Semi supervised Learning
+D. Reinforcement Learning
+E. Todas las anteriores
+F. Ninguna de las anteriores
+
+Respuesta correcta: A. Supervised Learning
+Explicación:
+En el aprendizaje supervisado (supervised learning), el modelo aprende a partir de datos etiquetados (entradas y salidas conocidas) para predecir futuras salidas.
+
+3. Cuando al modelo ingresamos datos categóricos y la salida del modelo es un número:
+Opciones:
+A. Clasificación
+B. Regresión lineal
+C. Regresión Logística
+D. Bagging
+E. Todas las anteriores
+F. Ninguna de las anteriores
+
+Respuesta correcta: B. Regresión lineal
+Explicación:
+La regresión lineal predice valores numéricos continuos. Aunque los datos de entrada sean categóricos, pueden ser codificados para permitir este tipo de salida.
+
+4. Serie de algoritmos que estipulan recompensa y pérdida por medio de políticas
+Opciones:
+A. Machine Learning
+B. Supervised Learning
+C. Reinforcement Learning
+D. Clasificación
+E. Todas las anteriores
+F. Ninguna de las anteriores
+
+Respuesta correcta: C. Reinforcement Learning
+Explicación:
+El Reinforcement Learning se basa en recompensas o penalizaciones para guiar el aprendizaje de un agente en la toma de decisiones mediante políticas.
+
+5. En batch learning tenemos que aprender sobre la data en el vuelo (a medida que se ingresa)
+Opciones:
+A. Cierto
+B. Falso
+
+Respuesta correcta: B. Falso
+Explicación:
+Batch learning implica entrenar el modelo sobre todo el conjunto de datos de una sola vez. Aprender "en el vuelo" se refiere al online learning.
+
+6. Cuando estoy haciendo un reconocedor de objetos con reidentificación y declaro un vector de características para establecer si es la misma persona o no:
+Opciones:
+A. Aprendizaje basado en modelo
+B. Aprendizaje basado en instancia
+C. Aprendizaje automático
+D. Aprendizaje estocástico
+E. Todas las anteriores
+F. Ninguna de las anteriores
+
+Respuesta correcta: B. Aprendizaje basado en instancia
+Explicación:
+Este enfoque compara nuevas instancias con ejemplos almacenados (como en k-NN) para hacer predicciones, típico del instance-based learning.
+
+7. ¿Cuál de los siguientes métodos no es un algoritmo no supervisado?
+Opciones:
+A. PCA
+B. Eclat
+C. t-SNE
+D. SVM de 1 clase
+E. Regresión logística
+F. Todas las anteriores
+G. Ninguna de las anteriores
+
+Respuesta correcta: E. Regresión logística
+Explicación:
+La regresión logística es un algoritmo de clasificación supervisado. Los otros métodos, como PCA o t-SNE, se usan para reducción de dimensionalidad o clustering sin etiquetas.
+
+8. Entrené un algoritmo y tengo 97% accuracy, pero solo 10% accuracy en el test set:
+Opciones:
+A. Underfitting
+B. High bias
+C. High variance
+D. Overfitting
+E. Todas las anteriores
+F. Ninguna de las anteriores
+
+Respuesta correcta: D. Overfitting
+Explicación:
+El modelo ha memorizado los datos de entrenamiento y no generaliza bien a datos nuevos, lo cual se traduce en overfitting (alta varianza).
+
+9. Tengo baja precisión en el validation set y también en el test set
+Opciones:
+A. Underfitting
+B. Overfitting
+C. High bias
+D. High variance
+E. Todas las anteriores
+F. Ninguna de las anteriores
+
+Respuesta correcta: A. Underfitting
+Explicación:
+Cuando el modelo no funciona bien ni siquiera con datos vistos, está subajustado (underfitting), comúnmente asociado con un modelo muy simple o mal entrenado.
+
+10. Entrené el modelo con 100% del dataset y usé el 20% del training como test set
+Opciones:
+A. El modelo está bien hecho, hemos validado el training set con el test set
+B. El modelo bien hecho, ya podemos ponerlo en producción
+C. El modelo está mal hecho, lo hemos tenido que dividir en 98%/1%
+D. El modelo está mal hecho, hemos de utilizar parte del dataset para training y la otra parte no vista por el modelo como el test set
+E. Todas las anteriores
+F. Ninguna de las anteriores
+
+Respuesta correcta: D. El modelo está mal hecho, hemos de utilizar parte del dataset para training y la otra parte no vista por el modelo como el test set
+Explicación:
+El test set debe estar completamente separado del conjunto de entrenamiento para evaluar la verdadera capacidad de generalización del modelo. No debe haber sido usado ni indirectamente en el entrenamiento.
